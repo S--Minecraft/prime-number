@@ -8,3 +8,19 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2014-07-20 17:08:48.814
 !MESSAGE properties loading for project 'RemoteSystemsTempFiles'
+!SESSION 2014-07-20 17:28:57.099 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2014-07-20 17:29:09.303
+!MESSAGE properties loading for project 'RemoteSystemsTempFiles'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2014-07-20 17:29:21.088
+!MESSAGE properties loading for project 'PrimeNumber'
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2014-07-20 17:48:41.529
+!MESSAGE Failed to open search index.

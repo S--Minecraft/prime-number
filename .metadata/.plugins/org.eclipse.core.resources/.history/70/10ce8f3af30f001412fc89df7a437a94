@@ -1,0 +1,14 @@
+package primeNumber.judgment;
+
+public class JudgementMain
+{
+
+
+	public static boolean JudgeTwo(int number)
+	{
+		int[] numbers= RankExtract.rankExtract(number);
+
+		return false;
+	}
+
+}

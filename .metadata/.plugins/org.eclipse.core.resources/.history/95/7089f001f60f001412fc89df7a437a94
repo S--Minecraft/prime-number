@@ -1,0 +1,58 @@
+package primeNumber.core;
+
+import primeNumber.judgment.JudgementMain;
+import primeNumber.judgment.RankExtract;
+
+public class PrimeNumberMain
+{
+	public static int[] prime = new int [26];//97までで26個;
+
+	public static void main(String[] args) /*throws IOException*/
+	{
+		/*
+		String inputNumber = "";
+
+		BufferedReader reader;
+        reader  = new BufferedReader(new InputStreamReader(System.in));
+
+        System.out.println("素数かどうか判定する文字を入力してください。");
+        inputNumber = reader.readLine();
+
+        System.out.println("入力された数は " + kekka + " です");
+        */
+
+		//100までの素数を代入
+		Until100.insertUntil100();
+
+		//詮索
+
+		//結果を表示
+		/*
+		for(int i=0; i<prime.length; i++)
+		{
+			System.out.println(prime[i]);
+		}
+		*/
+
+		int number = 21;
+		int[] numbers= RankExtract.rankExtract(number);
+
+		/*
+		for(int i = 0;i<numbers.length;i++)
+		{
+			System.out.println(numbers[i]);
+		}
+
+		int added = 0;
+
+		for(int i = 0;i<numbers.length;i++)
+		{
+			added += numbers[i];
+		}
+
+		System.out.println(added);
+		*/
+
+		System.out.println(JudgementMain.JudgeSeven(number));
+	}
+}

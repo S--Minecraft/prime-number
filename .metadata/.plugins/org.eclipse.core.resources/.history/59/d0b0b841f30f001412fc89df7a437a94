@@ -1,0 +1,20 @@
+package primeNumber.judgment;
+
+public class JudgementMain
+{
+
+
+	public static boolean JudgeTwo(int number)
+	{
+		int[] numbers= RankExtract.rankExtract(number);
+
+		int one = numbers[numbers.length];
+
+		if(one%2 == 0)
+		{
+			return true;
+		}
+		return false;
+	}
+
+}
