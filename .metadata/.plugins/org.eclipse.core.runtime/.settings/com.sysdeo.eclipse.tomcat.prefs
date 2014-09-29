@@ -1,8 +1,0 @@
-#Sat Oct 11 00:32:28 JST 2008
-tomcatDir=D:/modding/tools/pleiades-e4.3-java-32bit-jre_20140309/pleiades/tomcat/6
-eclipse.preferences.version=1
-fixTomcatHomeBug=fixed
-contextsDir=D:/modding/tools/pleiades-e4.3-java-32bit-jre_20140309/pleiades/tomcat/6/conf/Catalina/localhost
-tomcatVersion=tomcatV6
-computeSourcePath=true
-tomcatConfigFile=D:/modding/tools/pleiades-e4.3-java-32bit-jre_20140309/pleiades/tomcat/6/conf/server.xml
